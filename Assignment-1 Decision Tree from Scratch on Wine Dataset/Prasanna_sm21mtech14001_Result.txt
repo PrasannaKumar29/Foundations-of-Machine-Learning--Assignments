@@ -1,0 +1,16 @@
+Important Note: 
+The wine data set used for the algorithm needed a very minor change in the class label names. i.e The Spaces in the names have been removed. 
+Example :  "residual sugar" is renamed as "residualsugar"
+
+The csv file with modified labels is attached in the zip file
+
+
+1. Accuracy with entropy index: 0.8203164880040837
+
+2. K-Fold:
+   
+   Max Accuracy :0.8813905930470347
+   Min Accuracy :0.820040899795501
+   Mean Accuracy:0.8388548057259714
+
+3. Accuracy with gini index: 0.8065339458907606
